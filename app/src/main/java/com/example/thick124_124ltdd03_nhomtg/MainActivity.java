@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                         bottomNavigationView.getMenu().findItem(R.id.menu_home).setChecked(true);
                         break;
                     case 1 :
-                        bottomNavigationView.getMenu().findItem(R.id.menu_setting).setChecked(true);
+                        bottomNavigationView.getMenu().findItem(R.id.menu_profile).setChecked(true);
                         break;
 
                 }
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (itemId == R.id.menu_home) {
                     viewPager.setCurrentItem(0);
-                } else if (itemId == R.id.menu_setting) {
+                } else if (itemId == R.id.menu_profile) {
                     viewPager.setCurrentItem(1);
                 }
 

@@ -16,7 +16,6 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
         switch (position){
             case 0:
                 return new HomeFragment();
-
             case 1:
                 return new ProfileFragment();
             default:
@@ -26,6 +25,6 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 1;
+        return 2;
     }
 }
